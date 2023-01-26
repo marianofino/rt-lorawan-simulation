@@ -1,0 +1,15 @@
+scenarios: # scenarios to be created
+  dir: './scenarios' # the path to the folder with JSON scenario sepcifications (if it doesn't exist it will create one)
+  qty: 1
+  gateways:
+    qty: 8 # number of gateways in each scenario
+  devices:
+    minQty: 3200 # min number of devices in each scenario
+    maxQty: 3200 # max number of devices in each scenario
+    minDeadline: 1 # min deadline for a device
+    maxDeadline: 5 # max deadline for a device
+simulations: # for each scenario, run the following simulations
+  defaultValues:
+    msgSize: 10 # payload (not working)
+ns3:
+  wafDir: ../ns-3
