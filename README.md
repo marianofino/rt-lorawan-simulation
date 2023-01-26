@@ -3,7 +3,7 @@
 This repository has files containing code that has been used for simulating an algorithm to add Real-Time capabilities to LoRaWAN. The directory is organized as follows:
 
 * **rt-lorawan-simulator**: contains the script to create scenarios and run simulations (a wrapper of NS3).
-* **ns-3**: contains an NS3 instance with a modified version of the NS3 LoRaWAN module in order to run the required simulations.
+* **lorawan**: contains the modified NS3 LoRaWAN module required for the simulations.
 * **scenarios and results**: contains sample scenarios created to test the algorithm and its corresponding results.
 
 ## Prerequisites
