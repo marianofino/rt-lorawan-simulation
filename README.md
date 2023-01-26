@@ -1,3 +1,11 @@
+# Empirical Real-Time Guarantees to LoRaWAN
+
+This repository has files containing code that has been used for simulating an algorithm to add Real-Time capabilities to LoRaWAN. The directory is organized as follows:
+
+* **rt-lorawan-simulator**: contains the script to create scenarios and run simulations (a wrapper of NS3).
+* **ns-3**: contains an NS3 instance with a modified version of the NS3 LoRaWAN module in order to run the required simulations.
+* **scenarios and results**: contains sample scenarios created to test the algorithm and its corresponding results.
+
 ## Prerequisites
 
 * Node.js (tested on version 16.17.0)
@@ -72,9 +80,7 @@ $ node index.js run --mode random
 
 ## Simulation results interpretation
 
-The simulation results file is a CSV containing the following fields:
-
-	gatewaysLost	gatewaysLostQty	otherLostLoRaPackets	receivedByNS	slot		
+The simulation results file is a CSV containing the following fields:	
 
 * deviceId: Id of the End Device, taken from the input file.
 * packetUid: Unique packet id across the whole network of packets send by End Devices, assigned by NS3.
