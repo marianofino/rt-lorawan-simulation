@@ -80,9 +80,7 @@ $ node index.js run --mode random
 
 ## Simulation results interpretation
 
-The simulation results file is a CSV containing the following fields:
-
-	gatewaysLost	gatewaysLostQty	otherLostLoRaPackets	receivedByNS	slot		
+The simulation results file is a CSV containing the following fields:	
 
 * deviceId: Id of the End Device, taken from the input file.
 * packetUid: Unique packet id across the whole network of packets send by End Devices, assigned by NS3.
