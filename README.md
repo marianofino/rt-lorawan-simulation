@@ -13,7 +13,7 @@ This repository has files containing code that has been used for simulating an a
 
 ## Instalation instructions
 
-1. Open a terminal and navigate to the `./ns-3` directory
+1. After installing and configuring the LoRaWAN module, open a terminal and navigate to the NS3 directory
 
 2. Execute:
 
